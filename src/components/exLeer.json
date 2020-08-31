@@ -1,0 +1,386 @@
+[
+  {
+    "day": 1,
+    "progress": 0.079
+  },
+  {
+    "day": 9,
+    "progress": 0.049
+  },
+  {
+    "day": 7,
+    "progress": 0.011
+  },
+  {
+    "day": 4,
+    "progress": 0.19
+  },
+  {
+    "day": 9,
+    "progress": 0.17
+  },
+  {
+    "day": 6,
+    "progress": 0.16
+  },
+  {
+    "day": 7,
+    "progress": 0.11
+  },
+  {
+    "day": 1,
+    "progress": 0.91
+  },
+  {
+    "day": 9,
+    "progress": 0.99
+  },
+  {
+    "day": 10,
+    "progress": 0.94
+  },
+  {
+    "day": 11,
+    "progress": 0.99
+  },
+  {
+    "day": 19,
+    "progress": 0.97
+  },
+  {
+    "day": 17,
+    "progress": 0.91
+  },
+  {
+    "day": 14,
+    "progress": 0.99
+  },
+  {
+    "day": 19,
+    "progress": 0.71
+  },
+  {
+    "day": 16,
+    "progress": 0.79
+  },
+  {
+    "day": 17,
+    "progress": 0.74
+  },
+  {
+    "day": 11,
+    "progress": 0.79
+  },
+  {
+    "day": 19,
+    "progress": 0.79
+  },
+  {
+    "day": 90,
+    "progress": 0.77
+  },
+  {
+    "day": 91,
+    "progress": 0.79
+  },
+  {
+    "day": 99,
+    "progress": 0.49
+  },
+  {
+    "day": 97,
+    "progress": 0.46
+  },
+  {
+    "day": 94,
+    "progress": 0.47
+  },
+  {
+    "day": 99,
+    "progress": 0.49
+  },
+  {
+    "day": 96,
+    "progress": 0.91
+  },
+  {
+    "day": 97,
+    "progress": 0.99
+  },
+  {
+    "day": 91,
+    "progress": 0.96
+  },
+  {
+    "day": 99,
+    "progress": 0.99
+  },
+  {
+    "day": 70,
+    "progress": 0.6
+  },
+  {
+    "day": 71,
+    "progress": 0.69
+  },
+  {
+    "day": 79,
+    "progress": 0.67
+  },
+  {
+    "day": 77,
+    "progress": 0.66
+  },
+  {
+    "day": 74,
+    "progress": 0.69
+  },
+  {
+    "day": 79,
+    "progress": 0.7
+  },
+  {
+    "day": 76,
+    "progress": 0.71
+  },
+  {
+    "day": 77,
+    "progress": 0.79
+  },
+  {
+    "day": 71,
+    "progress": 0.79
+  },
+  {
+    "day": 79,
+    "progress": 0.74
+  },
+  {
+    "day": 40,
+    "progress": 0.79
+  },
+  {
+    "day": 41,
+    "progress": 0.76
+  },
+  {
+    "day": 49,
+    "progress": 0.77
+  },
+  {
+    "day": 47,
+    "progress": 0.71
+  },
+  {
+    "day": 44,
+    "progress": 0.1
+  },
+  {
+    "day": 49,
+    "progress": 0.11
+  },
+  {
+    "day": 46,
+    "progress": 0.19
+  },
+  {
+    "day": 47,
+    "progress": 0.14
+  },
+  {
+    "day": 41,
+    "progress": 0.19
+  },
+  {
+    "day": 49,
+    "progress": 0.19
+  },
+  {
+    "day": 90,
+    "progress": 0.16
+  },
+  {
+    "day": 91,
+    "progress": 0.19
+  },
+  {
+    "day": 99,
+    "progress": 0.17
+  },
+  {
+    "day": 97,
+    "progress": 0.14
+  },
+  {
+    "day": 94,
+    "progress": 0.19
+  },
+  {
+    "day": 99,
+    "progress": 0.16
+  },
+  {
+    "day": 96,
+    "progress": 0.17
+  },
+  {
+    "day": 97,
+    "progress": 0.11
+  },
+  {
+    "day": 91,
+    "progress": 0.19
+  },
+  {
+    "day": 99,
+    "progress": 0.9
+  },
+  {
+    "day": 60,
+    "progress": 0.99
+  },
+  {
+    "day": 61,
+    "progress": 0.94
+  },
+  {
+    "day": 69,
+    "progress": 0.99
+  },
+  {
+    "day": 67,
+    "progress": 0.96
+  },
+  {
+    "day": 64,
+    "progress": 0.97
+  },
+  {
+    "day": 69,
+    "progress": 0.99
+  },
+  {
+    "day": 66,
+    "progress": 0.97
+  },
+  {
+    "day": 67,
+    "progress": 0.9
+  },
+  {
+    "day": 61,
+    "progress": 0.17
+  },
+  {
+    "day": 69,
+    "progress": 0.19
+  },
+  {
+    "day": 70,
+    "progress": 0.19
+  },
+  {
+    "day": 71,
+    "progress": 0.16
+  },
+  {
+    "day": 79,
+    "progress": 0.11
+  },
+  {
+    "day": 77,
+    "progress": 0.9
+  },
+  {
+    "day": 74,
+    "progress": 0.91
+  },
+  {
+    "day": 79,
+    "progress": 0.97
+  },
+  {
+    "day": 76,
+    "progress": 0.99
+  },
+  {
+    "day": 77,
+    "progress": 0.96
+  },
+  {
+    "day": 71,
+    "progress": 0.99
+  },
+  {
+    "day": 10,
+    "progress": 0.91
+  },
+  {
+    "day": 11,
+    "progress": 0.99
+  },
+  {
+    "day": 19,
+    "progress": 0.97
+  },
+  {
+    "day": 17,
+    "progress": 0.9
+  },
+  {
+    "day": 14,
+    "progress": 0.19
+  },
+  {
+    "day": 19,
+    "progress": 0.11
+  },
+  {
+    "day": 16,
+    "progress": 0.71
+  },
+  {
+    "day": 17,
+    "progress": 0.77
+  },
+  {
+    "day": 11,
+    "progress": 0.7
+  },
+  {
+    "day": 19,
+    "progress": 0.61
+  },
+  {
+    "day": 90,
+    "progress": 0.69
+  },
+  {
+    "day": 91,
+    "progress": 0.69
+  },
+  {
+    "day": 99,
+    "progress": 0.97
+  },
+  {
+    "day": 97,
+    "progress": 0.94
+  },
+  {
+    "day": 94,
+    "progress": 0.49
+  },
+  {
+    "day": 99,
+    "progress": 0.47
+  },
+  {
+    "day": 96,
+    "progress": 0.49
+  },
+  {
+    "day": 97,
+    "progress": 0.41
+  }
+]

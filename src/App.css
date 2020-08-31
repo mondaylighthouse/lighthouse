@@ -1,0 +1,566 @@
+body {
+  background-color: rgb(224, 232, 246);
+  font-family: "Kanit", sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.App-header {
+  background-color: #ff9000;
+  min-height: 8vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.setupContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(224, 232, 246);
+}
+.setup {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.setupRow {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.setupColumn {
+  margin-top: 20px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.setupTile {
+  width: 50%;
+  height: 10vw;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: rgb(205 212 224);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.setupAvatars {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+label {
+  width: 90%;
+  text-align: start;
+}
+.likeInput {
+  width: 90%;
+  height: 90%;
+  border: none;
+  color: rgb(118 118 121);
+  font-family: "Kanit", sans-serif;
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  width: 90%;
+  border: none;
+  background-color: rgb(180, 193, 214);
+  color: rgb(61, 61, 61);
+  font-family: "Kanit", sans-serif;
+  font-size: 1em;
+}
+.setupButtons {
+  font-size: 28px;
+}
+button {
+  width: 45%;
+  border: none;
+  background-color: rgb(137, 148, 167);
+  color: rgb(255, 255, 255);
+  font-family: "Kanit", sans-serif;
+  font-size: 1em;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.team {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.projectsHist {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.projectContainer {
+  display: flex;
+  flex-direction: column;
+}
+.textDescriptionPD {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(224, 232, 246);
+}
+.projectHistory {
+  width: 24vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  overflow: scroll;
+}
+.teamHistory {
+  width: 24vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.projArea {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.teampict {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.projcont {
+  min-height: 8vw;
+  min-width: 36vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px solid white;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  background-color: aliceblue;
+}
+.projcontred {
+  min-height: 8vw;
+  min-width: 36vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-right: 3px solid red;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  background-color: aliceblue;
+}
+.projDescription {
+  display: flex;
+  justify-content: flex-start;
+}
+.projCostDiagram {
+  height: 100%;
+  background-color: rgb(228, 255, 196);
+}
+.projTimeDiagram {
+  height: 100%;
+  background-color: rgb(114, 206, 248);
+}
+
+.projLeer {
+  position: relative;
+  width: 24vw;
+  font-size: 1.5em;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  overflow: auto;
+  background-color: white;
+}
+span {
+  font-size: 14px;
+}
+.projName {
+  font-size: 1.2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
+  padding-left: 4px;
+  width: 10vw;
+}
+.fieldProjectName {
+  color: dimgray;
+  text-align: center;
+}
+.fieldMateName {
+  color: midnightblue;
+}
+.projProgress {
+  background-color: rgb(250, 195, 16);
+  width: 100%;
+}
+.projProgressTeam {
+  background-color: rgb(250, 195, 16);
+  width: 100%;
+  z-index: -1;
+}
+.teamProgress {
+  background-color: rgb(16, 203, 250);
+  width: 100%;
+}
+.projBusy {
+  background-color: rgba(16, 184, 250, 0.5);
+  height: 100%;
+  position: absolute;
+  left: 0;
+}
+.ph {
+  background-color: rgb(213 230 225);
+  border: 1px solid whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 7.8vw;
+  width: 14px;
+}
+.th {
+  background-color: rgb(214, 232, 253);
+  border: 1px solid whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 7.8vw;
+  width: 14px;
+}
+.phg {
+  background-color: green;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+}
+.thg {
+  background-color: rgb(0, 102, 128);
+  color: white;
+  display: flex;
+  align-items: flex-end;
+}
+
+.teamlive {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.dotDay {
+  height: 1vw;
+  width: 1vw;
+  border: 1px solid whitesmoke;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  z-index: 4;
+}
+.dotPrediction {
+  height: 2px;
+  width: 5px;
+  border-radius: 0%;
+  display: inline-block;
+  position: absolute;
+  z-index: 3;
+}
+.dotLineVertical {
+  height: 8vw;
+  width: 1px;
+  background-color: rgb(122, 122, 122);
+  border-radius: 100%;
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  z-index: 2;
+}
+.AvatarCarussell {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.AvatarCarussellSides {
+  min-width: 40%;
+  min-height: 100%;
+}
+.personalData {
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+  background-color: whitesmoke;
+  margin: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.teampict img {
+  height: 32px;
+  width: 32px;
+}
+.visor {
+  margin-top: 100px !important;
+  width: 100% !important;
+}
+.visor-tabs {
+  display: none !important;
+}
+.visor-controls {
+  display: none !important;
+}
+.teamcont {
+  height: 12vw;
+  width: 12vw;
+  box-shadow: inset 0px 0px 0px 15px lightgreen;
+  display: flex;
+  align-items: flex-end;
+  margin: 15px;
+  border: 1px solid black;
+}
+.teamArea {
+  display: flex;
+  flex-flow: row wrap;
+  width: 80%;
+  justify-content: space-around;
+}
+@media only screen and (max-width: 1024px) {
+  h1 {
+    font-size: 3em;
+    margin: 5px;
+  }
+  .teamcont {
+    height: 23vw;
+    width: 25vw;
+    box-shadow: inset 0px 0px 0px 15px lightgreen;
+    display: flex;
+    align-items: flex-end;
+    margin: 15px;
+    border: 1px solid black;
+  }
+  .projcont {
+    min-height: 18vw;
+    min-width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid white;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: aliceblue;
+  }
+
+  .projcontred {
+    min-height: 18vw;
+    min-width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-right: 3px solid red;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: aliceblue;
+  }
+  .projName {
+    font-size: 4vw;
+    padding-right: 2px;
+    padding-left: 4px;
+    width: 24vw;
+  }
+  .projLeer {
+    width: 60vw;
+    font-size: 1.5em;
+  }
+  .projectHistory {
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .teamHistory {
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .dotDay {
+    height: 2vw;
+    width: 2vw;
+  }
+  .ph {
+    height: 17vw;
+    width: 14px;
+  }
+  .th {
+    height: 17vw;
+    width: 14px;
+  }
+  .dotLineVertical {
+    height: 18vw;
+  }
+  .setup {
+    width: 100%;
+  }
+  .setupTile {
+    width: 50%;
+    height: 20vw;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(205 212 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .setupButtons {
+    font-size: 18px;
+  }
+  span {
+    font-size: 32px;
+  }
+  .teampict img {
+    height: 64px;
+    width: 64px;
+  }
+  .AvatarCarussell img {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 1.6em;
+    margin: 5px;
+  }
+  .teampict img {
+    height: 32px;
+    width: 32px;
+  }
+  .projcont {
+    min-height: 18vw;
+    min-width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid white;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: aliceblue;
+  }
+  .projcontred {
+    min-height: 18vw;
+    min-width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-right: 3px solid red;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: aliceblue;
+  }
+  .projName {
+    font-size: 4vw;
+    padding-right: 2px;
+    padding-left: 4px;
+    width: 24vw;
+  }
+  .projLeer {
+    width: 60vw;
+    font-size: 1.5em;
+  }
+  .projectHistory {
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .teamHistory {
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .dotDay {
+    height: 2vw;
+    width: 2vw;
+  }
+  .ph {
+    height: 17vw;
+    width: 14px;
+  }
+  .th {
+    height: 17vw;
+    width: 14px;
+  }
+  .dotLineVertical {
+    height: 18vw;
+  }
+  .setup {
+    width: 100%;
+  }
+  .setupTile {
+    width: 50%;
+    height: 20vw;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(205 212 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .setupButtons {
+    font-size: 18px;
+  }
+  span {
+    font-size: 12px;
+  }
+  .AvatarCarussell img {
+    width: 64px;
+    height: 64px;
+  }
+}
